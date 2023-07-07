@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif; 
+    /* font-family: 'Bacasime Antique', serif;    */
+}
+.container{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+/* start of navbar */
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid #dfe3e8;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    /* background-color: green; */
+}
+.inside-nav{
+    width: 95%;
+    height: 70%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.list-right{
+    list-style: none;
+    width: 550px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.list-right li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.list-right li a:hover{
+    border-bottom: 3px solid black;
+}
+.list-left{
+    list-style: none;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.list-left li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+}
+.list-left li a:hover{
+    color: #c16452;
+}
+.list-left li a i{
+    font-size: 20px;
+}
+.nav-img {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    /* background-color: aqua; */
+}
+.nav-img img{
+    width: 150px;
+}
+/* nav2 */
+.nav2{
+    width: 100%;
+    height: 60px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 1px solid black; */
+    display: none;
+}
+.inside-nav2{
+    width: 90%;
+    height: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #c16452; */
+}
+.inside-nav2 ul{
+    list-style: none;
+    width: 550px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+}
+.inside-nav2 ul li a{
+    text-decoration: none;
+    color: #787a7c;
+}
+/* end of navbar */
+/* start of web image */
+.web-image{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/web-MM_Extended_collectoin_Desktop_Banner_1728x.webp);
+    background-position: center;
+    background-size: cover;
+    background-color: #787a7c;
+}
+/* end of web image */
+/* start of new arrival */
+.arrival{
+    width: 100%;
+    height: 750px;
+    /* background-color: #c16452; */
+}
+.head{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head p{
+    width: 230px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #787a7c; */
+}
+.head p i{
+    font-size: 18px;
+    color: #c16452;
+}
+.head a{
+    font-size: 12px;
+    color: #c16452;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.head a:hover{
+    color: black;
+}
+.shoe{
+    width: 100%;
+    height: 550px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.shoe1{
+    width: 23%;
+    height: 100%;
+}
+.shoe-img{
+    width: 100%;
+    height: 80%;
+    background-color: grey;
+    position: relative;
+}
+.shoe-img img{
+    width: 100%;
+    height: 100%;
+}
+.shoe-img button{
+    width: 70px;
+    height: 25px;
+    background-color: #de9d9a;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.shoe-img i{
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    top: 20px;
+}
+.shoe-text{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.shoe-text p{
+    color: #171717;
+}
+.shoe-text span{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.shoe-text span pre{
+    color: #787a7c;
+}
+.shoe-text span del{
+    color: #c7cacc;
+}
+.shoe-text span h5{
+    color: #c20000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.shoe-text h3{
+    font-weight: 200;
+    font-size: 14px;
+    color: #c7cacc;
+}
+.circle1{
+    width: 15px;
+    height: 15px;
+    background-color: beige;
+    border-radius: 20px;
+    border: 1px solid #f4f6f8;
+}
+.circle2{
+    width: 15px;
+    height: 15px;
+    background-color: navy;
+    border-radius: 20px;
+    border: 1px solid #f4f6f8;
+}
+.circle3{
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    border-radius: 20px;
+    border: 1px solid #f4f6f8;
+}
+.circle4{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+/* end of new arrival */
+/* start of grid section */
+.grid-container{
+    width: 100%;
+    height: 1450px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.grid-section{
+    width: 100%;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows:700px 700px ;
+    gap: 10px;
+}
+.grid1{
+    background-color: pink;
+    background-image: url(images/Men_s_Sports_Shoes-flex1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.grid2{
+    background-color: pink;
+    background-image: url(images/Men_s_Sneakers-flex2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.grid3{
+    background-color: pink;
+    background-image: url(images/Campus_X_Justice_League-flex3.webp);
+    background-position: center;
+    background-size: cover;
+}
+.grid4{
+    background-color: pink;
+    background-image: url(images/Chunky_Sneakers_for_Women-flex4.webp);
+    background-position: center;
+    background-size: cover;
+}
+/* end of grid section */
+/* start of know your shoes */
+.know{
+    width: 100%;
+    height: 1000px;
+    /* background-color: cadetblue; */
+}
+.text-know{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+}
+.text-know h1{
+    font-weight: 500;
+}
+.text-know p{
+    font-size:20px;
+    margin-top: 10px;
+    color: #787a7c;
+}
+.image-know{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 650px 100px;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+.know1{
+    background-color: #c16452;
+    background-image: url(images/Air-Capsule_900x.webp);
+    background-size: cover;
+}
+.know2{
+    background-color: #c16452;
+    background-image: url(images/Yoga-Flex_900x.webp);
+    background-size: cover;
+}
+.know3{
+    /* background-color: #c16452; */
+}
+.know3 h1{
+    font-weight: 500;
+    font-size: 26px;
+}
+.know3 p{
+    color: #787a7c;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* end of know your shoes */
+/* start of sale */
+.sale{
+    width: 100%;
+    height: 500px;
+    background-color: #f7f1f0;
+    display: flex;
+}
+.image-sale{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* position: relative; */
+}
+.sale1{
+    width: 350px;
+    height: 350px;
+    background-color: yellow;
+    background-image: url(images/sale1.jpg);
+    background-size: cover;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.sale2{
+    width: 350px;
+    height: 350px;
+    background-color: green;
+    background-image: url(images/sale1.webp);
+    background-size: cover;
+}
+.text-sale{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-sale h2{
+    color: #212b36;
+    font-size: 30px;
+    font-weight: 500;
+}
+.text-sale p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.text-sale button{
+    width: 160px;
+    height: 45px;
+    border: none;
+    background-color: #212b36;
+    color: white;
+    margin-top: 30px;
+}
+/* end of sale */
+/* start of you tube video */
+.you-video{
+    width: 100%;
+    height: 650px;
+}
+/* end of you tube video */
+/* start of delivery */
+.delivery{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.d1{
+    width: 200px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.d1 i{
+    font-size: 20px;
+}
+/* end of delivery */
+/* start of footer */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #f4dfdb;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #676869;
+}
+.footer ul li a:hover{
+    color: #787a7c;
+}
+.foot-list1{
+    width: 20%;
+    height: 200px;
+    /* background-color: aliceblue; */
+    list-style: none;   
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.foot-list2{
+    width: 20%;
+    height: 300px;
+    /* background-color: aliceblue; */
+    list-style: none;   
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.foot-list3{
+    width: 30%;
+    height: 300px;
+    /* background-color: aliceblue; */
+    list-style: none;   
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.foot-list3 h3{
+    color: #676869;
+    font-size: 16px;
+}
+.foot-list3 p{
+    color: #787a7c;
+}
+.foot-list4{
+    width: 30%;
+    height: 300px;
+    /* background-color: aliceblue; */
+    list-style: none;   
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.foot-list4 input{
+    width: 300px;
+    height: 45px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.foot-list4 button{
+    width: 120px;
+    height: 40px;
+    background-color: #171717;
+    color: white;
+    border: none;
+}
+.foot-list4 button:hover{
+    background-color: #c16452;
+}
+.foot-list4 span{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-list4 i{
+    font-size: 28px;
+}
+/* end of footer */
+
+
+
+/* Responsive Design */
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .list-right{
+        display: none;
+    }
+    .nav2{
+        display: block;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 80px;
+        background-color: white;
+        z-index: 99;
+    }
+    /* nav closed */
+    /* web image */
+    .web-image{
+        width: 100%;
+        height: 300px;
+    }
+    /* web image closed */
+    /* new arrival */
+    .arrival{
+        width: 100%;
+        height: 480px;
+    }
+    .head{
+        height: 80px;
+    }
+    .shoe{
+        height: 350px;
+    }
+    .shoe-text span{
+        display: flex;
+        flex-direction:column ;
+    }
+    .shoe-text{
+        height: 35%;
+    }
+    .shoe-text p{
+        font-size: 14px;
+    }
+    /* new arrival closed */
+    /* know */
+    .know{
+        height: 700px;
+    }
+    .image-know{
+        height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-left: 40px;
+    padding-right: 60px;
+    }
+    .know3 h1{
+        font-size: 22px;
+    }
+    /* know closed */
+    /* sale */
+    .sale{
+        height: 400px;
+    }
+    .sale1{
+        width: 200px;
+        height: 200px;
+    }
+    .sale2{
+        width: 200px;
+        height: 200px;
+    }
+    /* sale closed */
+    /* youtube */
+    .you-video{
+        width: 100%;
+        height: 400px;
+    }
+    /* youtube closed */
+    /* footer */
+    .footer{
+        height: 750px;
+     display: block;
+    }
+    .foot-list1{
+        width: 50%;
+        height: 250px;
+        float: left;
+    }
+    .foot-list2{
+        width: 50%;
+        height: 250px;
+        float: right;
+    }
+    .foot-list3{
+        width: 50%;
+        height: 300px;
+        float: left;
+    }
+    .foot-list4{
+        width: 50%;
+        height: 300px;
+        float: right;
+        margin-bottom: 300px;
+    }
+    /* footer closed */
+}
